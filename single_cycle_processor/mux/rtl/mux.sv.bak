@@ -1,0 +1,12 @@
+module mux #(
+	parameter WIDTH   = 2,
+	parameter SEL_BIT = 2
+) (
+	input  logic [2**SEL_BITS*WIDTH-1:0] inputs, // Concatenated inputs
+	input  logic [         SEL_BITS-1:0] sel   , // Selection signal
+	output logic [            WIDTH-1:0] out     // Output
+);
+
+assign out = input[sel*WIDTH +: WIDTH];
+
+endmodule 

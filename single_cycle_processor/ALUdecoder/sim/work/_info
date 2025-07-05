@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/PC/Desktop/fyd/single_cycle_processor/ALUdecoder/sim
+vALUdecoder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1737993966
+!i10b 1
+!s100 D=`[ECoB=f[OKL08Ez6bd3
+I>C:M@<0o]^<M_<;lCzcM^2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ALUdecoder_sv_unit
+S1
+R0
+w1737746884
+8../rtl/ALUdecoder.sv
+F../rtl/ALUdecoder.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1737993966.000000
+Z6 !s107 ../rtl/ALUdecoder.sv|tb_ALUdecoder.sv|
+Z7 !s90 -reportprogress|300|-sv|tb_ALUdecoder.sv|../rtl/ALUdecoder.sv|
+!i113 1
+o-sv
+Z8 tCvgOpt 0
+n@a@l@udecoder
+vtb_ALUdecoder
+R1
+R2
+!i10b 1
+!s100 >Nd]l8YA3gA<Z0MJ0@9=L3
+IdbObCm[9[eZcAIBF`zzPL3
+R3
+!s105 tb_ALUdecoder_sv_unit
+S1
+R0
+w1737746778
+8tb_ALUdecoder.sv
+Ftb_ALUdecoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+o-sv
+R8
+ntb_@a@l@udecoder

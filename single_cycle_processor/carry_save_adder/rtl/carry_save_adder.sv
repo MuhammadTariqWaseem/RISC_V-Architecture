@@ -1,0 +1,17 @@
+module carry_save_adder #(parameter WIDTH = 8) (
+	input  logic [WIDTH-1:0] in_1 ,
+	input  logic [WIDTH-1:0] in_2 ,
+	input  logic [WIDTH-1:0] c_in ,
+	output logic [WIDTH-1:0] sum  ,
+	output logic [WIDTH-1:0] c_out
+);
+
+	generate
+		integer i;
+		for(i=0; i<WIDTH ; i=i+1) begin
+			assign sum[i]   = in_1[i] ^ in_2[i] ^ c_in[i];
+			assign c_out[i] = (in_1[i] & in_2[i]) | (in_1[i] & c_in[i]) | (c_in[i] & in_2[i]);
+		end
+	endgenerate
+
+endmodule 

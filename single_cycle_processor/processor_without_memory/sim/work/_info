@@ -1,0 +1,300 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/PC/Desktop/fyd/single_cycle_processor/processor_without_memory/sim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1738355297
+!i10b 1
+!s100 >Q;K2XFY[IiQZ=mo@nPel0
+I8PFfcTEa=E8WPHEcZH3WN3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+R0
+w1737744408
+8../../adder/rtl/adder.sv
+F../../adder/rtl/adder.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1738355297.000000
+Z6 !s107 ../../extend/rtl/extend.sv|../../datapath/rtl/datapath.sv|../../ALU/rtl/ALU.sv|../../adder/rtl/adder.sv|
+Z7 !s90 -reportprogress|300|-sv|../../adder/rtl/adder.sv|../../ALU/rtl/ALU.sv|../../datapath/rtl/datapath.sv|../../extend/rtl/extend.sv|
+!i113 1
+o-sv
+Z8 tCvgOpt 0
+vALU
+R1
+R2
+!i10b 1
+!s100 jfUEb5g7id5EkO6f:L]dn1
+I:?D0ZUN^iLJSLLUo_hobB2
+R3
+!s105 ALU_sv_unit
+S1
+R0
+w1738355123
+8../../ALU/rtl/ALU.sv
+F../../ALU/rtl/ALU.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+o-sv
+R8
+n@a@l@u
+vALUdecoder
+R1
+R2
+!i10b 1
+!s100 SP[@bBoA2QYg@S[Ih3f:H3
+IoWSEPC<@OC_^;Sc;bzh8^3
+R3
+!s105 ALUdecoder_sv_unit
+S1
+R0
+w1738261517
+8../../ALUdecoder/rtl/ALUdecoder.sv
+F../../ALUdecoder/rtl/ALUdecoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 ../../mux/rtl/mux.sv|../../opdecoder/rtl/opdecoder.sv|../../ALUdecoder/rtl/ALUdecoder.sv|../../controller/rtl/controller.sv|
+Z10 !s90 -reportprogress|300|-sv|../../controller/rtl/controller.sv|../../ALUdecoder/rtl/ALUdecoder.sv|../../opdecoder/rtl/opdecoder.sv|../../mux/rtl/mux.sv|
+!i113 1
+o-sv
+R8
+n@a@l@udecoder
+vcontroller
+R1
+R2
+!i10b 1
+!s100 NfR<>82kVADjeG6Y6TJ:I0
+I;FNgLki5N146ULGbEg=2G0
+R3
+!s105 controller_sv_unit
+S1
+R0
+w1738000808
+8../../controller/rtl/controller.sv
+F../../controller/rtl/controller.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R9
+R10
+!i113 1
+o-sv
+R8
+vdatapath
+R1
+R2
+!i10b 1
+!s100 kj6PFUCMeCcl?U3^W_NP<1
+IMHKPMcoiC8<]iMZzbGeeQ2
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1738355055
+8../../datapath/rtl/datapath.sv
+F../../datapath/rtl/datapath.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+o-sv
+R8
+vextend
+R1
+R2
+!i10b 1
+!s100 [InUGg9nnaQFG`WV0ECBS0
+IFf5V0kf_TVMjAIzLj3>Um0
+R3
+!s105 extend_sv_unit
+S1
+R0
+w1737999295
+8../../extend/rtl/extend.sv
+F../../extend/rtl/extend.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+o-sv
+R8
+vflipflop
+R1
+R2
+!i10b 1
+!s100 Mg8OmkA;lJd5K@<A5UjgM2
+IZ[]FQmD7EoBWhcQnEfkOV0
+R3
+!s105 flipflop_sv_unit
+S1
+R0
+w1738008792
+8../../flipflop/rtl/flipflop.sv
+F../../flipflop/rtl/flipflop.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 ../../register/rtl/register.sv|../../flipflop/rtl/flipflop.sv|
+Z12 !s90 -reportprogress|300|-sv|../../flipflop/rtl/flipflop.sv|../../register/rtl/register.sv|
+!i113 1
+o-sv
+R8
+vmux
+R1
+R2
+!i10b 1
+!s100 ^<hCR]M0bU91zAkEYk:XG2
+ICCg5Fj4nFEUM;RkkIc_Nh2
+R3
+!s105 mux_sv_unit
+S1
+R0
+w1738081534
+8../../mux/rtl/mux.sv
+F../../mux/rtl/mux.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R9
+R10
+!i113 1
+o-sv
+R8
+vopdecoder
+R1
+R2
+!i10b 1
+!s100 g=9PgEfjD8zI1LA@YVVkX1
+IkH@O[aPQc7h2Z]G4O2NDH1
+R3
+!s105 opdecoder_sv_unit
+S1
+R0
+w1738080683
+8../../opdecoder/rtl/opdecoder.sv
+F../../opdecoder/rtl/opdecoder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R9
+R10
+!i113 1
+o-sv
+R8
+vprocessor_without_memory
+R1
+R2
+!i10b 1
+!s100 5WSIPgCbmnonmVl;]PlHk3
+I`C>5HD<m4J9Qn3;54i[=Q0
+R3
+!s105 processor_without_memory_sv_unit
+S1
+R0
+w1738095187
+8../rtl/processor_without_memory.sv
+F../rtl/processor_without_memory.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z13 !s107 ../rtl/processor_without_memory.sv|tb_processor_without_memory.sv|
+Z14 !s90 -reportprogress|300|-sv|tb_processor_without_memory.sv|../rtl/processor_without_memory.sv|
+!i113 1
+o-sv
+R8
+vregister
+R1
+R2
+!i10b 1
+!s100 :;[7LkEOKWSZUi=GN8Jb`3
+IULe@z6CoKBVBldhh:LTeG2
+R3
+!s105 register_sv_unit
+S1
+R0
+w1738355279
+8../../register/rtl/register.sv
+F../../register/rtl/register.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+o-sv
+R8
+vtb_processor_without_memory
+R1
+R2
+!i10b 1
+!s100 `eQZ0O2e[a[^]]YlVYB7_2
+ID3cJo[FKdFdzYIaFQHKDB3
+R3
+!s105 tb_processor_without_memory_sv_unit
+S1
+R0
+w1738348148
+8tb_processor_without_memory.sv
+Ftb_processor_without_memory.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+o-sv
+R8

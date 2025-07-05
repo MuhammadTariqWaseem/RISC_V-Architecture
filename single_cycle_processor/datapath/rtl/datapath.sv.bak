@@ -1,0 +1,79 @@
+module datapath (
+  input  logic        clk       ,
+  input  logic        reset     ,
+  input  logic        PCSrc     ,
+  input  logic        ALUSrc    ,
+  input  logic        RegWrite  ,
+  input  logic [ 1:0] ResultSrc ,
+  input  logic [ 1:0] ImmSrc    ,
+  input  logic [ 2:0] ALUControl,
+  input  logic [31:0] Instr     ,
+  input  logic [31:0] ReadData  ,
+  output logic        Zero      ,
+  output logic [31:0] PC        ,
+  output logic [31:0] ALUResult ,
+  output logic [31:0] WriteData 
+);
+					  
+  logic [31:0] PCNext  ;
+  logic [31:0] PCPlus4 ;
+  logic [31:0] PCTarget;
+  logic [31:0] ImmExt  ;
+  logic [31:0] SrcA    ;
+  logic [31:0] SrcB    ;
+  logic [31:0] Result  ;
+
+  flipflop #(.WIDTH(32)) flipflop (
+    .clk  (clk   ),
+    .reset(reset ),
+    .ST   (1'b0  ),
+    .d    (PCNext),
+    .q    (PC    )
+  );
+
+  adder adder_0 (
+    .in1(PC     ),
+    .in2(32'd4  ),
+    .out(PCPlus4)
+  );
+
+  adder adder_1 (
+    .in1(PC      ),
+    .in2(ImmExt  ),
+    .out(PCTarget)
+  );
+
+  assign PCNext = (PCSrc)? (PCTarget) : (PCPlus4);
+
+  register register (
+    .clk         (clk         ),
+    .write_enable(RegWrite    ),
+    .read_addr1  (Instr[19:15]),
+    .read_addr2  (Instr[24:20]),
+    .write_addr  (Instr[11:7] ),
+    .write_data  (Result      ),
+    .read_data1  (SrcA        ),
+    .read_data2  (WriteData   )
+  );
+
+
+  extend extend (
+    .instr (Instr[31:7]),
+    .immsrc(ImmSrc     ),
+    .immext(ImmExt     )
+  );
+
+  assign SrcB = (ALUSrcE)? (ImmExt) : (WriteData);
+
+  ALU ALU (
+    .A        (SrcA        ),
+    .B        (SrcB        ),
+    .ALUOp    (ALUControl  ),
+    .funct3   (Instr[14:12]),
+    .ALUResult(ALUResult   ),
+    .zero     (Zero        )
+  );
+
+  assign Result = (ResultSrcW[1])? ((ResultSrcW[0])? (32'b0) : (PCPlus4) ) : ((ResultSrcW)? (ReadData) : (ALUResult));
+
+endmodule

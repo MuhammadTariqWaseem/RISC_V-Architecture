@@ -1,0 +1,8 @@
+Info (10281): Verilog HDL Declaration information at MWCS.sv(10): object "C0" differs only in case from object "c0" in the same scope File: C:/Users/PC/Desktop/fyd/processor_6_stage/MultWithCarrySave/MWCS.sv Line: 10
+Info (10281): Verilog HDL Declaration information at MWCS.sv(14): object "C1" differs only in case from object "c1" in the same scope File: C:/Users/PC/Desktop/fyd/processor_6_stage/MultWithCarrySave/MWCS.sv Line: 14
+Info (10281): Verilog HDL Declaration information at MWCS.sv(21): object "C2" differs only in case from object "c2" in the same scope File: C:/Users/PC/Desktop/fyd/processor_6_stage/MultWithCarrySave/MWCS.sv Line: 21
+Info (10281): Verilog HDL Declaration information at MWCS.sv(26): object "C3" differs only in case from object "c3" in the same scope File: C:/Users/PC/Desktop/fyd/processor_6_stage/MultWithCarrySave/MWCS.sv Line: 26
+Info (10281): Verilog HDL Declaration information at MWCS.sv(34): object "C5" differs only in case from object "c5" in the same scope File: C:/Users/PC/Desktop/fyd/processor_6_stage/MultWithCarrySave/MWCS.sv Line: 34
+Info (10281): Verilog HDL Declaration information at MWCS.sv(36): object "C6" differs only in case from object "c6" in the same scope File: C:/Users/PC/Desktop/fyd/processor_6_stage/MultWithCarrySave/MWCS.sv Line: 36
+Info (10281): Verilog HDL Declaration information at MWCS.sv(18): object "C16" differs only in case from object "c16" in the same scope File: C:/Users/PC/Desktop/fyd/processor_6_stage/MultWithCarrySave/MWCS.sv Line: 18
+Info (10281): Verilog HDL Declaration information at MWCS.sv(23): object "C24" differs only in case from object "c24" in the same scope File: C:/Users/PC/Desktop/fyd/processor_6_stage/MultWithCarrySave/MWCS.sv Line: 23

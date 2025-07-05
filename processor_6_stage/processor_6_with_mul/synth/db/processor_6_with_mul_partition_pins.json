@@ -1,0 +1,277 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ALUResultX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[23]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUResultX[31]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[8]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[9]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[10]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[11]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[12]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[13]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[14]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[15]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[16]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[17]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[18]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[19]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[20]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[21]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[22]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[23]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[24]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[25]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[26]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[27]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[28]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[29]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[30]",
+					"strict" : false
+				},
+				{
+					"name" : "RD2X[31]",
+					"strict" : false
+				},
+				{
+					"name" : "MemWriteX",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
